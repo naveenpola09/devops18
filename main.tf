@@ -1,8 +1,8 @@
 resource "aws_launch_template" "web_server_as" {
     name = "myproject"
-    image_id           = "ami-0ddc798b3f1a5117e"
+    image_id           = "ami-0ca9fb66e076a6e32"
     instance_type = "t2.micro"
-    key_name = "mustafakey-pair"
+    key_name = "bhagi"
     
 }
    
